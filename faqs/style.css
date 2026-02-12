@@ -36,3 +36,11 @@ body {
     text-align: center;
     padding: 1rem;
 }
+
+/* Styles apply to tablets and larger (768px and up) */
+@media (min-width: 768px) {
+  .faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
