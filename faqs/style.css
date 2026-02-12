@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+}
+.header {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.main{
+    width: 100%;
+    background-color: #f8f8f8;  
+}
+.faq{
+    margin: 2rem 0;
+}
+.faq-container {
+  padding: 2rem;
+}
+ .faq-container__steps, .faq-container__note {
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+ 
+}
+.author-info{
+    text-align: center;
+    padding: 1rem;
+}
