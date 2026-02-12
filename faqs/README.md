@@ -1,26 +1,61 @@
-## FAQs Challenge
+# FAQs Page – Mobile-First Responsive Design
 
-The FAQ page was implemented using semantic HTML to ensure a clear, accessible, and well-structured layout.
+A simple Frequently Asked Questions (FAQ) web page built using semantic HTML and a mobile-first CSS approach.  
+This project focuses on clean structure, responsive design, and organized styling.
 
-Key semantic elements used include:
-- `<main>` to define the primary content of the page
-- `<header>` to introduce the page title and description
-- `<section>` and `<article>` to logically group FAQ items
-- `<footer>` for page-specific supporting information
+---
 
-This approach improves accessibility, enhances document structure, and follows modern HTML best practices.
+## 📌 Project Overview
 
-### What I Learned
+The page includes two FAQ sections:
+- How to track an order
+- Return policy details
 
-- How to structure a web page using semantic HTML elements
-- The importance of using `<main>` for primary content
-- When to use page-level headers and footers versus global ones
-- How semantic elements improve accessibility and readability
-- Better organization of content using sections and articles
+The layout is designed mobile-first and enhanced for larger screens using media queries.
 
-### Challenges Faced
+---
 
-- Deciding which elements belong inside `<main>` versus outside
-- Choosing the correct semantic tags for FAQ content
-- Maintaining a clean document outline with proper heading hierarchy
-- Avoiding overuse of non-semantic `<div>` elements
+## 🗂 Project Structure
+
+├── index.html
+├── style.css
+└── README.md
+
+
+- **index.html** → Semantic page structure
+- **style.css** → Mobile-first styling and responsive media queries
+
+---
+
+## 🧱 HTML Structure
+
+The page uses proper semantic elements:
+
+- `<header>` – Page title and introduction
+- `<main>` – Main content wrapper
+- `<section>` – Individual FAQ blocks
+- `<footer>` – Author information
+
+Each FAQ contains:
+- A heading (`h2`)
+- A description paragraph
+- An ordered or unordered list
+- A supporting note
+- A styled divider between sections
+
+---
+
+## 🎨 CSS Implementation
+
+### ✅ CSS Reset
+A global reset removes default browser spacing and ensures consistent box-sizing.
+
+### ✅ Mobile-First Approach
+Base styles are written for small screens first:
+- Simple layout
+- Clean spacing
+- Readable typography
+
+### ✅ Responsive Design
+A media query enhances the layout for tablets and larger screens:
+
