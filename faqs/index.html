@@ -3,77 +3,98 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
+
+    <!-- Font (Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Simple FAQs | devChallenges.io</title>
   </head>
+
   <body>
-    <!-- FAQs heading -->
     <header class="header">
       <h1 class="header__title">Frequently Asked Questions</h1>
       <p class="header__description">
         Browse through the most frequently asked questions
       </p>
     </header>
+
     <main class="main">
-      <!-- FAQs contents -->
-      <section class="faq">
-        <div class="faq-container">
-          <h2 class="faq-container__title">How can I track my order?</h2>
+      <div class="faq-container">
+        <section class="faq" aria-labelledby="faq-order">
+          <h2 id="faq-order" class="faq-container__title">
+            How can I track my order?
+          </h2>
           <p class="faq-container__description">
-            You can track your order using the following steps
+            You can track your order using the following steps:
           </p>
 
           <ol class="faq-container__steps">
-            <li>Go to the Order <a href="#">Tracking Page</a>.</li>
+            <li>Go to the Order <a href="">Tracking Page</a>.</li>
             <li>Enter your order number and email address.</li>
             <li>
               Click on the Track Order button to view the current status of your
               shipment.
             </li>
           </ol>
+
           <p class="faq-container__note">
             If you encounter any issues, please visit our
-            <a href="#">Help Center</a>.
+            <a href="">Help Center</a>.
           </p>
-        </div>
-      </section>
-      <hr />
-      <section class="faq">
-        <div class="faq-container">
-          <h2 class="faq-container__title">What is your return policy?</h2>
+        </section>
+
+        <hr class="divider" />
+
+        <section class="faq" aria-labelledby="faq-return">
+          <h2 id="faq-return" class="faq-container__title">
+            What is your return policy?
+          </h2>
           <p class="faq-container__description">
             We offer a 30-day return policy on most items. Here are some key
-            points
+            points:
           </p>
 
           <ul class="faq-container__steps">
             <li>
-              <strong>Items must be in their original condition</strong>:
-              Unworn, unused, and unwashed
+              <strong>Items must be in their original condition</strong>: unworn,
+              unused, and unwashed.
             </li>
             <li>
-              <strong>Include original packaging and tags</strong>: All items
+              <strong>Include original packaging and tags</strong>: all items
               should be returned with their original packaging and tags.
             </li>
             <li>
-              <strong>Proof of purchase</strong>: A receipt or proof of purchase
+              <strong>Proof of purchase</strong>: a receipt or proof of purchase
               is required.
             </li>
           </ul>
+
           <p class="faq-container__note">
             For more detailed information, read our full
-            <a href="#">Return Policy</a>.
+            <a href="">Return Policy</a>.
           </p>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
 
     <footer class="author-info">
-      Coded by <a href="#">Santino Majur</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >.
+      Coded by <a href="">Santino Majur</a> | Challenge by
+      <a
+        href="https://www.devchallenges.io?ref=challenge"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        devChallenges.io
+      </a>
+      .
     </footer>
   </body>
 </html>
