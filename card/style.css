@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.card {
+  width: 100%;
+  max-width: 350px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem 1.5rem 0;
+}
+.card__image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.card_pill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(250, 242, 242);
+  width: 60px;
+  height: 20px;
+  border-radius: 50px;
+  padding: 0.25rem 1rem;
+}
+.card__pill--text {
+  color: rgb(144, 6, 144);
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+.card__title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  letter-spacing: 0.1rem;
+}
+.card__description {
+  font-size: 0.875rem;
+  color: #a39f9f;
+}
+.card__author {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+.card__divider {
+  width: 100%;
+  height: 0.5px;
+  background-color: #eae7e7;
+  border: none;
+}
+.card__author--name {
+  font-size: 0.875rem;
+  color: #a39f9f;
+  padding: 0 1.5rem;
+}
