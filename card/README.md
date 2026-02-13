@@ -2,7 +2,7 @@
 
 <div align="center">
   Solution to the 
-  <a href="https://devchallenges.io/challenge/minimal-blog-card" target="_blank" rel="noopener noreferrer">
+  <a href="https://sanmajur.github.io/devChallenges/card/" target="_blank" rel="noopener noreferrer">
     Minimal Blog Card
   </a> challenge from devChallenges.io.
 </div>
