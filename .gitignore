@@ -6,3 +6,8 @@
 .DS_Store
 .prettierignore
 
+.vscode/
+
+node_modules/
+.env
+dist/
