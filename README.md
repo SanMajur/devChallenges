@@ -46,7 +46,7 @@ A responsive card layout challenge focused on UI structure, alignment, and visua
 
 ### 3️⃣ Newsletter Signup Component
 
-A responsive newsletter subscription card built with semantic HTML and mobile-first CSS, featuring structured inputs, clear typography, and a clean call-to-action button. [Demo]( https://sanmajur.github.io/devChallenges/newsletter)
+A responsive newsletter subscription card built with semantic HTML and mobile-first CSS, featuring structured inputs, clear typography, and a clean call-to-action button. [Demo]( https://sanmajur.github.io/devChallenges/newsletter/)
 
 
 **Focus Areas:**
