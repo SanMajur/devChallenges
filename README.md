@@ -12,7 +12,8 @@ Each challenge completed in this repository is treated as an independent learnin
 
 ### 1️⃣ FAQs Page
 
-A responsive Frequently Asked Questions page built using semantic HTML and a mobile-first CSS approach. [Demo]( https://sanmajur.github.io/devChallenges/faqs)
+A responsive Frequently Asked Questions page built using semantic HTML and a mobile-first CSS approach.
+[Demo](https://sanmajur.github.io/devChallenges/faqs)
 
 **Focus Areas:**
 
@@ -29,8 +30,8 @@ A responsive Frequently Asked Questions page built using semantic HTML and a mob
 
 ### 2️⃣ Card Component
 
-A responsive card layout challenge focused on UI structure, alignment, and visual polish. [Demo]( https://sanmajur.github.io/devChallenges/card)
-
+A responsive card layout challenge focused on UI structure, alignment, and visual polish.
+[Demo](https://sanmajur.github.io/devChallenges/card)
 
 **Focus Areas:**
 
@@ -46,8 +47,8 @@ A responsive card layout challenge focused on UI structure, alignment, and visua
 
 ### 3️⃣ Newsletter Signup Component
 
-A responsive newsletter subscription card built with semantic HTML and mobile-first CSS, featuring structured inputs, clear typography, and a clean call-to-action button. [Demo]( https://sanmajur.github.io/devChallenges/newsletter/)
-
+A responsive newsletter subscription card built with semantic HTML and mobile-first CSS, featuring structured inputs, clear typography, and a clean call-to-action button.
+[Demo](https://sanmajur.github.io/devChallenges/newsletter/)
 
 **Focus Areas:**
 
@@ -58,6 +59,24 @@ A responsive newsletter subscription card built with semantic HTML and mobile-fi
 * Consistent spacing and visual hierarchy
 
 📁 Folder: `/newsletter`
+
+---
+
+### 4️⃣ Article Listing
+
+A responsive article listing layout displaying technology-focused articles with images, titles, and publication dates.
+[Demo](https://sanmajur.github.io/devChallenges/article-listing)
+
+**Focus Areas:**
+
+* Structured and reusable component layout
+* Flexbox-based responsive alignment
+* Mobile-first design methodology
+* Layout transition from vertical to horizontal on tablet
+* Clean and scalable CSS organization
+* Typography and visual hierarchy refinement
+
+📁 Folder: `/article-listing`
 
 ---
 
@@ -131,6 +150,3 @@ This repository serves both as a personal learning archive and a growing portfol
 
 Feedback, suggestions, and constructive critique are always welcome.
 
----
-
-If you want, I can also **write a concise commit message for this README update** reflecting the addition of the newsletter challenge. Do you want me to do that next?
