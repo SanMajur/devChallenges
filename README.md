@@ -80,6 +80,24 @@ A responsive article listing layout displaying technology-focused articles with 
 
 ---
 
+### 5️⃣ Testimonial Page
+
+A responsive testimonial component page built with semantic HTML and mobile-first CSS, showcasing user reviews and social proof cards.
+[Demo](https://sanmajur.github.io/devChallenges/testimonial/)
+
+**Focus Areas:**
+
+* Mobile-first layout for small screens
+* Responsive design for tablet and desktop with media queries
+* Flexbox alignment for testimonial sections
+* Parallel testimonial cards with staggered positioning
+* Consistent typography, spacing, and visual hierarchy
+* Clean and maintainable CSS
+
+📁 Folder: `/testimonial`
+
+---
+
 ## 🎯 Objectives
 
 * Develop strong fundamentals in web development
