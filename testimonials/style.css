@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Sora", sans-serif;
+  background-color: #fafaf9;
+  color: #333;
+  line-height: 1.6;
+}
+.testimonial__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+  margin-top: 2rem;
+}
+.testimonial__content {
+  display: flex;
+  padding: 0.125rem 2rem;
+  flex-direction: column;
+  gap: 1rem;
+}
+.testimonial__avator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #f5c044;
+}
+.testimonial__title{
+    font-size: 2.25rem;
+}
+.testimonial__description {
+  font-size: 1rem;
+  color: #52525A;  
+}
+.testimonial__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.testimonial__item{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.testimonial__item span{
+    font-size: 0.875rem;
+    color: #52525A;
+}
+
+.testimonial__content--socials{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.125rem 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.testimonial__social--items{
+    width: 100%;
+    padding: 1rem;
+  
+    background-color: #fff;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.testimonial__social--img{
+    width: 80px;
+    height: auto;
+}
+.testimonial__social--stars{
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+.testimonial__social--content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+.testimonial__social--content h3{
+    font-size: 1rem;
+    color: #000;
+}
+.testimonial__social--content p{
+    font-size: 0.875rem;
+    color: #52525A;
+}
+
+.author-info {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #333;
+  text-align: center;
+}
