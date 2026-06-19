@@ -125,6 +125,7 @@ A responsive testimonial component page built with semantic HTML and mobile-firs
 * Code organization and scalability
 * Technical documentation using Markdown
 * Professional Git workflow (branching, merging, conventional commits)
+* docker and cli
 
 ---
 
