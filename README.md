@@ -165,7 +165,7 @@ Each README clearly explains:
 
 ## 📌 Notes
 
-This repository serves both as a personal learning archive and a growing portfolio of practical web development work.
+This repository serves both as a personal learning archive and a growing portfolio of practical web development work from basics to advanced full stack concepts
 
 Feedback, suggestions, and constructive critique are always welcome.
 
